@@ -1,0 +1,209 @@
+@media (max-width: 768px) {
+  .table-xs {
+    font-size: 13px; }
+
+  .table-xs td, .table-xs th {
+    padding: 0.2rem; }
+
+  .hidden-xs {
+    display: none; }
+
+  .kq-vsk td:nth-child(n+5), .kq-vsk th:nth-child(n+5) {
+    display: none; } }
+.table-spin-match tr > td:nth-child(2) {
+  width: 25px; }
+.table-spin-match .spin {
+  animation: spin 1s infinite;
+  margin-bottom: 2px; }
+.table-spin-match input + label {
+  border-radius: 50%;
+  margin-bottom: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #CCCCCC;
+  position: relative; }
+.table-spin-match input:checked + label {
+  border: 1px solid #20BA26; }
+  .table-spin-match input:checked + label:after {
+    content: '';
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #20BA26;
+    transform: translate(-50%, -50%); }
+
+.list-league-spin-match {
+  gap: 10px;
+  padding: 0 0 15px 0; }
+  .list-league-spin-match a {
+    color: #000;
+    background: #E4E4E4;
+    padding: 5px 15px;
+    border-radius: 49px;
+    font-size: 12px; }
+    .list-league-spin-match a.active {
+      color: #fff;
+      background: #D90000; }
+
+.clock {
+  margin-bottom: 3px; }
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(45deg); }
+  14% {
+    transform: rotateZ(90deg); }
+  29% {
+    transform: rotateZ(135deg); }
+  43% {
+    transform: rotateZ(180deg); }
+  58% {
+    transform: rotateZ(225deg); }
+  72% {
+    transform: rotateZ(270deg); }
+  86% {
+    transform: rotateZ(315deg); }
+  100% {
+    transform: rotateZ(360deg); } }
+caption {
+  height: 30px;
+  background: #00603a;
+  line-height: 30px;
+  padding: 0 5px;
+  color: #fff;
+  caption-side: top; }
+
+.table-xs {
+  background: white;
+  text-align: center; }
+
+.table-xs th {
+  color: white; }
+
+.bxh-vsk tbody tr:nth-child(1) td:first-child {
+  background: #4ca180; }
+
+.bxh-vsk tbody tr:nth-child(2) td:first-child {
+  background: #70ba9d; }
+
+.bxh-vsk tbody tr:nth-child(3) td:first-child {
+  background: #9ad8c0; }
+
+.bxh-vsk img {
+  width: 18px;
+  height: 18px; }
+
+.bxh-vsk td:last-child {
+  color: red; }
+
+.bxh-vsk caption img {
+  display: block;
+  line-height: 30px;
+  margin-top: 7px;
+  margin-right: 10px;
+  width: 16px;
+  height: 13px;
+  float: left; }
+
+.bg_gray {
+  background: #b2b2b2; }
+
+.bg_blue {
+  background: #00603a; }
+
+.bg_green {
+  background: #a9d391; }
+
+.flag {
+  width: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 2px;
+  height: 13px;
+  /*float: left;*/
+  vertical-align: text-top;
+  background-image: url(../images/flag-list.25-v1.png);
+  background-repeat: no-repeat; }
+
+/*
+ket qua bong da*/
+.bg_cyan {
+  background: #4ca180; }
+
+.c_white {
+  color: #fff; }
+
+td[colspan] {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0.5rem;
+  text-align: left; }
+
+.team-home {
+  text-align: right; }
+
+.team, .team-away {
+  text-align: left; }
+
+.fw_b {
+  text-align: center;
+  font-weight: 500; }
+
+.c_red {
+  color: #e21d1d; }
+
+td > table, td > table th, td > table td {
+  border: none;
+  padding: 0; }
+
+.for {
+  background: url(../images/msic01.png) no-repeat scroll center center; }
+
+.agt {
+  background: url(../images/msic12.png) no-repeat scroll center center; }
+
+caption h1 {
+  display: inline-block;
+  float: left;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff; }
+
+.bxh-vsk table .top123 {
+  background: #4ca180; }
+
+.bxh-vsk table .top4 {
+  background: #70ba9d; }
+
+.bxh-vsk table .top5 {
+  background: #9ad8c0; }
+
+.block-content {
+  display: block;
+  background: #191919;
+  padding: 10px 20px; }
+
+.block-content > ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0; }
+
+ul.column-2 li {
+  width: 50%; }
+
+ul.column-3 li {
+  width: 33.33%; }
+
+.block-content > ul .active {
+  color: #A6DF58; }
+
+.block-content > ul .active a {
+  color: #A6DF58; }
+
+/*# sourceMappingURL=data.css.map */

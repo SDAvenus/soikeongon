@@ -1,0 +1,87 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+
+<div class="init-game">
+    <input class="input-choose" type="text" placeholder="Số ô">
+    <input class="input-choose-red" type="text" placeholder="Số ô đỏ">
+    <button class="btn-create">Tạo game</button>
+</div>
+<div class="game-container">
+</div>
+
+<style>
+    .init-game {
+        display: flex;
+        justify-content: center;
+    }
+    .input-choose {
+        margin-right: 10px;
+        width: 40%;
+        height: 40px;
+    }
+    .input-choose-red {
+        margin-right: 10px;
+        width: 40%;
+        height: 40px;
+    }
+    .btn-create {
+        padding: 10px 0;
+    }
+    .game-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .box {
+        display: block;
+        width: 80px;
+        height: 80px;
+        background: #000;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    .green {
+        background: green;
+    }
+    .red {
+        background: red;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $('.btn-create').click(function () {
+        let max = $('.input-choose').val();
+        let number_red = $('.input-choose-red').val();
+        let numbers = getRandomNumber(number_red, max);
+        let html = '';
+        for (let i = 0; i < max; i++) {
+            if (numbers.includes(i)) {
+                html += '<span class="box active"></span>';
+            } else {
+                html += '<span class="box"></span>';
+            }
+        }
+        $('.game-container').html(html);
+    });
+    $(document).on('click', '.box:not(.active)', function (e) {
+        $(this).addClass('green');
+    });
+    $(document).on('click', '.active', function (e) {
+        $(this).addClass('red');
+    });
+
+    function getRandomNumber(count = 2, max = 10) {
+        let numbers = [];
+        for (let i = 0; i < count; i++) {
+            let number;
+            do{
+                number = Math.floor(Math.random() * (parseInt(max)));
+            } while (numbers.includes(number));
+            numbers.push(number);
+        }
+        return numbers;
+    }
+</script>

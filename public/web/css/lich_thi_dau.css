@@ -1,0 +1,135 @@
+.box-lich-thi-dau {
+  box-sizing: border-box;
+  border-radius: 4px 4px 0 0; }
+  .box-lich-thi-dau li .date-word {
+    color: #0D1326; }
+  .box-lich-thi-dau .match-club span {
+    font-weight: 600; }
+  .box-lich-thi-dau .td.match-score span {
+    font-weight: 600; }
+  .box-lich-thi-dau .title._league {
+    display: flex;
+    justify-content: center;
+    font-weight: 500; }
+  .box-lich-thi-dau .match-club span {
+    font-weight: 500; }
+  .box-lich-thi-dau .match-score {
+    font-weight: 500; }
+  .box-lich-thi-dau .league_name:before {
+    content: '';
+    width: 48px;
+    height: 1px;
+    background: #DBDBDB;
+    margin-right: 3px; }
+  .box-lich-thi-dau .league_name:after {
+    content: '';
+    width: 48px;
+    height: 1px;
+    background: #DBDBDB;
+    margin-left: 3px; }
+  .box-lich-thi-dau .head-title {
+    background: linear-gradient(90deg, #15452f 7.78%, #0a764a 101.53%);
+    color: #fff;
+    padding-top: 10px;
+    margin-top: -10px;
+    border-radius: 4px 0 0;
+    padding-bottom: 10px; }
+    .box-lich-thi-dau .head-title::before {
+      background: #ef4123;
+      top: 6px; }
+  .box-lich-thi-dau td.match-club {
+    width: 42%; }
+  .box-lich-thi-dau .fb_box_date {
+    padding: 1px; }
+    .box-lich-thi-dau .fb_box_date a {
+      color: #000; }
+  .box-lich-thi-dau .content-football {
+    max-height: 600px;
+    overflow-x: hidden; }
+    .box-lich-thi-dau .content-football a {
+      color: #020f26; }
+    .box-lich-thi-dau .content-football .table {
+      width: 100%;
+      max-width: 100%;
+      background: #f7f7f7;
+      border: 1px solid #e2e2e2;
+      border-collapse: collapse; }
+      .box-lich-thi-dau .content-football .table tr {
+        border: 4px solid #fff;
+        background: #fff; }
+      .box-lich-thi-dau .content-football .table tr.match {
+        background: #fff;
+        border-radius: 4px;
+        border-right: 4px solid #fff;
+        border-left: 4px solid #fff; }
+      .box-lich-thi-dau .content-football .table .tr {
+        border-bottom: 2px solid #fff;
+        background: #fff; }
+      .box-lich-thi-dau .content-football .table .tr.match {
+        background: #fff;
+        border-radius: 4px;
+        justify-content: space-around; }
+        .box-lich-thi-dau .content-football .table .tr.match .match-club {
+          width: 35%; }
+        .box-lich-thi-dau .content-football .table .tr.match .match-score {
+          width: 8%; }
+    .box-lich-thi-dau .content-football .table-bordered {
+      border: 1px solid #ebebeb; }
+    .box-lich-thi-dau .content-football .title_league .league_name {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #D90000;
+      padding: 5px 10px;
+      text-align: center; }
+  .box-lich-thi-dau .fb-sub-menu li {
+    background: #F5F5F5; }
+    .box-lich-thi-dau .fb-sub-menu li a {
+      padding: 6px;
+      display: inline-block;
+      border-radius: 5px; }
+      .box-lich-thi-dau .fb-sub-menu li a .date-word {
+        white-space: nowrap; }
+  .box-lich-thi-dau .fb-sub-menu li.sub-menu-active {
+    background: #D90000;
+    border-radius: 5px; }
+    .box-lich-thi-dau .fb-sub-menu li.sub-menu-active a span {
+      color: #fff; }
+  .box-lich-thi-dau .font-10 {
+    font-size: 10px !important; }
+  .box-lich-thi-dau .content-block-identify {
+    padding: 1px; }
+  .box-lich-thi-dau .table {
+    margin-bottom: 0; }
+    .box-lich-thi-dau .table .td {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left;
+      line-height: 1.42857;
+      padding: 8px 5px; }
+  .box-lich-thi-dau .justify-content-rigth {
+    justify-content: right; }
+
+#lich-thi-dau-container ::-webkit-scrollbar {
+  width: 4px; }
+#lich-thi-dau-container ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px; }
+#lich-thi-dau-container ::-webkit-scrollbar-thumb {
+  background: #0D1326;
+  border-radius: 10px; }
+  #lich-thi-dau-container ::-webkit-scrollbar-thumb:hover {
+    background: #0D1326; }
+
+@media (max-width: 767.98px) {
+  .box-lich-thi-dau .fb-sub-menu li {
+    border-radius: 5px;
+    background: #F5F5F5; }
+    .box-lich-thi-dau .fb-sub-menu li a {
+      padding-left: 15px;
+      padding-right: 15px; }
+    .box-lich-thi-dau .fb-sub-menu li span {
+      color: #0D1326;
+      font-weight: 600; } }
+
+/*# sourceMappingURL=lich_thi_dau.css.map */

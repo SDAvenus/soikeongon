@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('/web/fonts/icomoon/icomoon.eot?ver=14');
+    src:  url('/web/fonts/icomoon/icomoon.eot?ver=14#iefix') format('embedded-opentype'),
+    url('/web/fonts/icomoon/icomoon.ttf?ver=14') format('truetype'),
+    url('/web/fonts/icomoon/icomoon.woff?ver=14') format('woff'),
+    url('/web/fonts/icomoon/icomoon.svg?ver=14#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-chevron-down:before {
+    content: "\e900";
+  }
+  .icon-chevron-up:before {
+    content: "\e901";
+  }
+  .icon-paperplane:before {
+    content: "\e902";
+  }
+  .icon-home:before {
+    content: "\e904";
+  }
+  .icon-bars:before {
+    content: "\e905";
+  }
+  .icon-download-cloud:before {
+    content: "\e906";
+  }
+  .icon-clock:before {
+    content: "\e94e";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  .icon-bookmark:before {
+    content: "\e9d2";
+  }
+  .icon-star:before {
+    content: "\e9d9";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-simple-right:before {
+    content: "\eab8";
+  }

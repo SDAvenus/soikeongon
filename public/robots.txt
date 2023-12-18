@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/*
+Disallow: /nofollow/*
+Sitemap: https://soikeongon.com/sitemap.xml

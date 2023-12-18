@@ -1,0 +1,98 @@
+.game-tai-nhieu-nhat {
+    padding: 0 10px;
+    margin: 15px 0;
+    border: 2px solid green;
+    background: #fff; 
+}
+    .button-choi-ngay {
+        padding: 5px 10px;
+        background: #c00;
+        border-radius: 80px;
+        margin-bottom: 10px;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        color:#fff;
+    }
+    .button-review {
+        padding: 5px 10px;
+        background: gray;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        border-radius: 80px;
+        color:#fff;
+    }
+    .border-right-custom {
+        position: relative;
+    }
+    .border-right-custom:before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 44px;
+        background: grey;
+        right: 5px;
+        top: 16%;
+    }
+    .border-right-custom:first-child:before {
+        top: 35%;
+    }
+    .border-right-custom:nth-child(3):before {
+        top: 0%;
+    }
+
+.text-red1 {
+    color: #c00;
+}
+.text-green1 {
+    color: #20b420;
+}
+.text-blue1 {
+    color: #009;
+}
+.text-white {
+    color: #ffffff;
+}
+.description_nha_cai ol, .description_nha_cai ul {
+    list-style: none;
+}
+.border-right {
+    border-right: 1px solid #f3f3f3;
+}
+.align-item {
+    align-items: center;
+}
+.border-radius-35 {
+    border-radius: 35px;
+}
+@media only screen and (max-width: 767px) {
+    .game-tai-nhieu-nhat {
+        margin-left: 25px;
+        margin-right: 25px;
+        .border-right-custom:before{
+            display: none;
+        }
+        .button-review{
+            margin-bottom: 10px;;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        .button-review {
+            width: 145px;
+        }
+        .button-choi-ngay{
+            width: 145px;
+        }
+    }
+    .border-right {
+        border-right: none;
+    }
+    .game-tai-nhieu-nhat h2 {
+        font-size: 25px;
+    }
+    .game-tai-nhieu-nhat ol {
+        padding: 0;
+    }
+}

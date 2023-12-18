@@ -1,0 +1,289 @@
+.list-tournament {
+  border-radius: 10px; }
+
+.list-tournament > li {
+  padding: 5px 0; }
+
+.list-tournament > li > a {
+  color: #000000;
+  -webkit-transition: all ease .4s;
+  -moz-transition: all ease .4s;
+  -ms-transition: all ease .4s;
+  -o-transition: all ease .4s;
+  transition: all ease .4s; }
+
+.list-tournament > li > a:hover {
+  color: #214790; }
+
+.list-tournament li img {
+  width: 25px; }
+
+.hot-tournament .asb-content p {
+  border: 1px solid #1f1fdc; }
+
+.cat_des img {
+  max-width: 100%;
+  height: auto; }
+
+.child-border-right > *:not(:last-child) {
+  border-right: 1px solid white; }
+
+.child-mr-2 > *:not(:last-child) {
+  margin-right: 0.5rem; }
+
+.nhacai-medal {
+  display: inline-block;
+  width: 23px;
+  height: 27px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  z-index: 1;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500; }
+
+.nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_1.png); }
+
+.container-nhacai:nth-child(2) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_2.png); }
+
+.container-nhacai:nth-child(3) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(4) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(5) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(6) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(7) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(8) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(9) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.container-nhacai:nth-child(10) .nhacai-medal::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -4px;
+  right: 0;
+  font-size: 30px;
+  z-index: -1;
+  width: 30px;
+  height: 34px;
+  background-image: url(../web/images/stt_3.png); }
+
+.count-star {
+  background: url("/web/images/background_blue1.png");
+  width: 38px;
+  height: 84px;
+  background-size: 38px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.nhacai-uy-tin-medal {
+  background: url("/web/images/bg_red.png");
+  width: 38px;
+  height: 47px;
+  background-size: 38px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.about-footer a {
+  color: #263B92; }
+
+.about-footer a:hover {
+  color: #263B92; }
+
+.collapsible {
+  cursor: pointer; }
+
+.collapsible:after {
+  content: '\2630';
+  float: right; }
+
+.collapsible.active:after {
+  content: "\1F5D9"; }
+
+.toggle-sub-menu {
+  padding-top: 12px; }
+
+/*Fb Comments Width Fix*/
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+  max-width: 100% !important;
+  width: 100% !important; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("/web/fonts/icomoon/icomoon.eot?ver=14");
+  src: url("/web/fonts/icomoon/icomoon.eot?ver=14#iefix") format("embedded-opentype"), url("/web/fonts/icomoon/icomoon.ttf?ver=14") format("truetype"), url("/web/fonts/icomoon/icomoon.woff?ver=14") format("woff"), url("/web/fonts/icomoon/icomoon.svg?ver=14#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-chevron-down:before {
+  content: "\e900"; }
+
+.icon-chevron-up:before {
+  content: "\e901"; }
+
+.icon-paperplane:before {
+  content: "\e902"; }
+
+.icon-home:before {
+  content: "\e904"; }
+
+.icon-bars:before {
+  content: "\e905"; }
+
+.icon-download-cloud:before {
+  content: "\e906"; }
+
+.icon-clock:before {
+  content: "\e94e"; }
+
+.icon-search:before {
+  content: "\e986"; }
+
+.icon-bookmark:before {
+  content: "\e9d2"; }
+
+.icon-star:before {
+  content: "\e9d9"; }
+
+.icon-facebook:before {
+  content: "\ea90"; }
+
+.icon-twitter:before {
+  content: "\ea96"; }
+
+.icon-youtube:before {
+  content: "\ea9d"; }
+
+.icon-simple-right:before {
+  content: "\eab8"; }
+
+/*# sourceMappingURL=non-critical.css.map */

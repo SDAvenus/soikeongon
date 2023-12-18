@@ -1,0 +1,556 @@
+.content_box_home {
+    overflow: hidden;
+}
+.mg-t-20 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.box-list-schedule-all .content-odds-item.head-odd-page {
+    color: rgb(232, 230, 227);
+    background-color: rgb(91, 99, 102);
+}
+
+.box-list-schedule-all .content-odds-item.head-odd-page {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    background-color: #D90000;
+}
+
+.box-list-schedule-all .content-odds-item {
+    background-color: rgb(44, 48, 50);
+    border-bottom-color: rgb(48, 52, 54);
+}
+.box-list-schedule-all .content-odds-item {
+    display: block;
+    height: 56px;
+    background-color: #c6d4f1;
+    border-bottom: 1px solid #fff;
+}
+
+.time-info{
+    color: rgb(255, 255, 255);
+    --darkreader-inline-color: #e8e6e3;
+}
+
+.box-list-schedule-all .content-odds-item .time-info {
+    border-right-color: rgb(52, 56, 58);
+}
+.box-list-schedule-all .content-odds-item .time-info {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    border-right: 1px solid #f2f2f2;
+    color: #585858;
+}
+
+.b_gameweek .time-info, .b_gameweek .scorelink {
+    color: rgb(240, 81, 53);
+}
+.b_gameweek .time-info, .b_gameweek .scorelink {
+    line-height: 24px;
+    text-align: center;
+    width: 48px;
+    color: #ef4123;
+}
+
+.predict-computer .box-list-schedule-all .content-odds-item .club-name {
+    width: calc(100% - 345px);
+}
+
+.box-list-schedule-all .content-odds-item.head-odd-page .odds-content, .box-list-schedule-all .content-odds-item.head-odd-page .club-name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.box-list-schedule-all .content-odds-item .club-name {
+    border-right-color: rgb(52, 56, 58);
+    padding-left: 10px;
+}
+.box-list-schedule-all .content-odds-item .club-name {
+    display: inline-block;
+    width: calc(100% - 435px);
+    vertical-align: middle;
+    border-right: 1px solid #f2f2f2;
+    height: 54px;
+    float: none;
+}
+
+.predict-computer .box-list-schedule-all .content-odds-item .odds-content {
+    width: 70px;
+    padding: 4px;
+}
+.box-list-schedule-all .content-odds-item.head-odd-page .odds-content, .box-list-schedule-all .content-odds-item.head-odd-page .club-name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content {
+    border-right-color: rgb(52, 56, 58);
+    text-align: center;
+}
+.box-list-schedule-all .content-odds-item .odds-content {
+    border-right: 1px solid #f2f2f2;
+    display: inline-block;
+    height: 56px;
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 72px;
+}
+
+.box-list-schedule-all .title-schedule-league {
+    background-color: #282E43 !important;
+    color: white;
+}
+
+.box-list-schedule-all .title-schedule-league {
+    padding-left: 12px;
+    overflow: hidden;
+    height: 31px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.box-list-schedule-all .title-schedule-league {
+    background-color: #282E43!important;
+    padding: 5px 0!important;
+}
+.box-list-schedule-all .title-schedule-league .league-name, .box-list-schedule-all .title-schedule-league .league-name h2 {
+    display: inline;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #585858;
+    display: inline-block;
+}
+
+.box-list-schedule-all .title-schedule-league .title-schedule-text {
+    color: rgb(232, 230, 227);
+}
+.box-list-schedule-all .title-schedule-league .title-schedule-text {
+    color: #fff;
+}
+.box-list-schedule-all .league-links {
+    margin-left: auto;
+}
+
+.box-list-schedule-all .content-odds-item .club-name span, .box-list-schedule-all .content-odds-item .club-name strong {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.b_gameweek span {
+    color: rgb(176, 170, 159);
+}
+.b_gameweek span {
+    display: inline-block;
+    font-size: 13px;
+    color: #585858;
+    text-align: right;
+    vertical-align: middle;
+}
+.box-list-schedule-all .content-odds-item .club-name strong {
+    color: rgb(200, 195, 188);
+}
+.box-list-schedule-all .content-odds-item .club-name strong {
+    color: #D90000;
+    font-weight: 700;
+}
+.box-list-schedule-all .content-odds-item .club-name span, .box-list-schedule-all .content-odds-item .club-name strong {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+.box-list-schedule-all .content-odds-item.even {
+    background-color: rgb(39, 43, 44);
+}
+
+.box-list-schedule-all .content-odds-item.even {
+    background-color: #e4e4e4;
+}
+
+.box-list-schedule-all .content-odds-item {
+    background-color: rgb(44, 48, 50);
+    border-bottom-color: rgb(48, 52, 54);
+}
+.box-list-schedule-all .content-odds-item {
+    display: block;
+    height: 56px;
+    background-color: #c6d4f1;
+    border-bottom: 1px solid #fff;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content .odds-data {
+    display: block;
+    height: 18px;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content .odds-data span {
+    color: rgb(189, 183, 175);
+}
+
+.box-list-schedule-all .content-odds-item .odds-content .odds-data span {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 18px;
+    font-weight: 700;
+    color: #444;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.odds-data .left-text.highlight {
+    color: rgb(240, 81, 53) !important;
+}
+.odds-data .left-text.highlight {
+    color: #ef4123!important;
+    font-weight: 700;
+}
+.odds-data .left-text {
+    float: left;
+    text-align: left;
+    width: 50%;
+    font-weight: 700;
+}
+
+.b_gameweek span {
+    color: rgb(176, 170, 159);
+}
+.b_gameweek span {
+    display: inline-block;
+    font-size: 13px;
+    color: #585858;
+    text-align: right;
+    vertical-align: middle;
+
+
+}
+
+.odds-data .right-text {
+    color: rgb(168, 160, 149);
+}
+.odds-data .right-text {
+    text-align: right;
+    width: 50%;
+    float: right;
+    color: #666;
+}
+
+.b_gameweek span {
+    display: inline-block;
+    font-size: 13px;
+    color: #585858;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.predict-computer .box-list-schedule-all .content-odds-item .odds-content .odds-data.bet-tip {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content .odds-data {
+    display: block;
+    height: 18px;
+    font-size: 12px;
+}
+strong, b {
+    font-weight: 700;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content:last-child {
+    border-right-color: initial;
+}
+
+.predict-computer .box-list-schedule-all .content-odds-item .odds-content {
+    width: 70px;
+    padding: 4px;
+}
+.box-list-schedule-all .content-odds-item .odds-content:last-child {
+    border-right: none;
+}
+
+.box-list-schedule-all .content-odds-item .odds-content {
+    border-right: 1px solid #f2f2f2;
+    display: inline-block;
+    height: 56px;
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 72px;
+}
+
+.box-list-schedule-all .content-odds-item.even {
+    background-color: rgb(39, 43, 44);
+}
+.box-list-schedule-all .content-odds-item.even {
+    background-color: #e4e4e4;
+}
+
+
+.box-list-schedule-all .content-odds-item {
+    background-color: rgb(44, 48, 50);
+    border-bottom-color: rgb(48, 52, 54);
+}
+.box-list-schedule-all .content-odds-item {
+    display: block;
+    height: 56px;
+    background-color: #c6d4f1;
+    border-bottom: 1px solid #fff;
+}
+
+.box-list-schedule-all .content-odds-item.even {
+    background-color: rgb(39, 43, 44);
+}
+.box-list-schedule-all .content-odds-item.even {
+    background-color: #e4e4e4;
+}
+
+.box-list-schedule-all .content-odds-item {
+    background-color: rgb(44, 48, 50);
+    border-bottom-color: rgb(48, 52, 54);
+}
+.box-list-schedule-all .content-odds-item {
+    display: block;
+    height: 56px;
+    background-color: #c6d4f1;
+    border-bottom: 1px solid #fff;
+}
+
+.time-info:first-child {
+    font-size: 12px;
+}
+
+.content-odds-item .head-odd-page .time-info {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .box-list-schedule-all .content-odds-item .club-name {
+        display: inline-block;
+        width: calc(100% - 300px);
+        vertical-align: middle;
+        border-right: 1px solid #f2f2f2;
+        height: 54px;
+        float: none;
+    }
+    .box-list-schedule-all .content-odds-item .odds-content {
+        border-right: 1px solid #f2f2f2;
+        display: inline-block;
+        height: 56px;
+        /* padding-right: 5px; */
+        vertical-align: middle;
+        width: 60px;
+    }
+
+    .predict-computer .box-list-schedule-all .content-odds-item .odds-content {
+        width: 40px;
+        padding: 4px;
+    }
+
+    .box-list-schedule-all .content-odds-item .odds-content .odds-data span {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 18px;
+        font-weight: 700;
+        color: #444;
+        font-size: 10px;
+        line-height: 5px;
+    }
+    .box-list-schedule-all .content-odds-item .odds-content .odds-data {
+        display: block;
+        height: 18px;
+        font-size: 10px;
+    }
+}
+
+span.flag_16 {
+    display: inline-block;
+    height: 16px;
+    overflow: hidden;
+}
+.europe_16_left {
+    background-position: 0 -1150px;
+}
+.flag_16 {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+}
+.left_16 {
+    padding-left: 20px;
+    /* background-position: left top; */
+}
+.flag_16 {
+    background-repeat: no-repeat;
+}
+
+.vietnam_16_left {
+    background-position: 0 -3775px;
+}
+
+.iceland_16_left {
+    background-position: 0 -1566px;
+}
+
+.argentina_16_left {
+    background-position: 0 -158px;
+}
+
+.australia_16_left {
+    background-position: 0 -222px;
+}
+
+.sweden_16_left {
+    background-position: 0 -3390px;
+}
+
+.norway_16_left {
+    background-position: 0 -2622px;
+}
+
+.senegal_16_left {
+    background-position: 0 -3022px;
+}
+
+.uruguay_16_left {
+    background-position: 0 -3697px;
+}
+
+.brazil_16_left {
+    background-position: 0 -494px;
+}
+
+.ireland_16_left {
+    background-position: 0 -1646px;
+}
+
+.malaysia_16_left {
+    background-position: 0 -2126px;
+}
+
+.myanmar_16_left {
+    background-position: 0 -2382px;
+}
+
+.algeria_16_left {
+    background-position: 0 -62px;
+}
+
+.kyrgyzstan_16_left {
+    background-position: 0 -1886px;
+}
+
+.singapore_16_left {
+    background-position: 0 -3102px;
+}
+
+.ecuador_16_left {
+    background-position: 0 -1022px;
+}
+
+.lithuania_16_left {
+    background-position: 0 -2030px;
+}
+
+.belarus_16_left {
+    background-position: 0 -334px;
+}
+
+.tunisia_16_left {
+    background-position: 0 -3550px;
+}
+.iraq_16_left {
+    background-position: 0 -1630px;
+}
+
+.bolivia_16_left {
+    background-position: 0 -430px;
+}
+
+.jordan_16_left {
+    background-position: 0 -1758px;
+}
+
+.asia_16_left {
+    background-position: 0 -206px;
+}
+
+.morocco_16_left {
+    background-position: 0 -2350px;
+}
+
+.uzbekistan_16_left {
+    background-position: 0 -3726px;
+}
+
+.china-pr_16_left, .china_16_left {
+    background-position: 0 -718px;
+}
+
+.chile_16_left {
+    background-position: 0 -702px;
+}
+.indonesia_16_left {
+    background-position: 0 -1598px;
+}
+.egypt_16_left {
+    background-position: 0 -1041px;
+}
+.latvia_16_left {
+    background-position: 0 -1934px;
+}
+.estonia_16_left {
+    background-position: 0 -1118px;
+}
+.mozambique_16_left {
+    background-position: 0 -2366px;
+}
+.mongolia_16_left {
+    background-position: 0 -2302px;
+}
+.africa_16_left {
+    background-position: 0 -30px;
+}
+.india_16_left {
+    background-position: 0 -1582px;
+}
+.peru_16_left {
+    background-position: 0 -2766px;
+}
+.finland_16_left {
+    background-position: 0 -1198px;
+}
+.paraguay_16_left {
+    background-position: 0 -27530px;
+}
+.bangladesh_16_left {
+    background-position: 0 -302px;
+}
